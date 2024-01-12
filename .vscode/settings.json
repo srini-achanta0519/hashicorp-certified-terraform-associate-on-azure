@@ -1,0 +1,29 @@
+{
+    "terminal.integrated.profiles.windows": {
+      "PowerShell -NoProfile": {
+        "source": "PowerShell",
+        "args": [
+          "-NoProfile"
+        ]
+      }
+    },
+    "terminal.integrated.profiles.linux": {
+      "zsh (login)": {
+        "path": "zsh",
+        "args": [
+          "-l"
+        ]
+      }
+    },
+    "terminal.integrated.scrollback": 100000000,
+  // <<-- UNCOMMENT BELOW FOR WINDOWS -->>
+  // "editor.fontFamily": "CaskaydiaCove NF",
+  // <<-- <<-- UNCOMMENT BELOW FOR MAC OS -->>
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "keyboard.layout": "00000809",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.guides.bracketPairs": true
+  }
